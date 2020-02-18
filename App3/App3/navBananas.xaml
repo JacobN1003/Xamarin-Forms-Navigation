@@ -19,7 +19,7 @@
                    FontSize="30" />
             <Label
                 x:Name="bananaFact"
-                Text="The banana is actually classified as a berry"
+                Text=""
                 TextColor="Black"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"

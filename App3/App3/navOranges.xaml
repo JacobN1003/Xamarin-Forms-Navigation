@@ -17,7 +17,8 @@
                    BackgroundColor="DarkOrange"
                    TextColor="White"/>
             <Label
-                Text="As of 2010, Brazil grows one third of all the world's oranges."
+                x:Name="orangeFact"
+                Text=""
                 TextColor="White"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"

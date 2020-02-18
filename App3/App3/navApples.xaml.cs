@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Random;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System;
 
 namespace App3
 {
@@ -16,24 +11,26 @@ namespace App3
         public Apples()
         {
             InitializeComponent();
-            appleFact.Text = "hello";
         }
-
-        //void Handle_Appearing(object sender, System.EventArgs e)
-        //{
-        //    Random random = new Random();
-        //    string[] facts = { "2,500 varieties of apples are grown in the United States.", "this is another fact" };
-            
-        //    appleFact.Text = "hello";   
-            
-        //}
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            appleFact.Text = "hello";
+            Random random = new Random();
+            string[] Facts = {
+                "2,500 varieties of apples are grown in the United States.",
+                "The crabapple is the only apple native to North America.",
+                "Apples come in all shades of reds, greens, and yellows.",
+                "Two pounds of apples make one 9 - inch pie.",
+                "Apple blossom is the state flower of Michigan.",
+                "2,500 varieties of apples are grown in the United States.",
+                "7,500 varieties of apples are grown throughout the world.",
+                "100 varieties of apples are grown commercially in the United States.",
+                "Apples are grown commercially in 36 states.",
+                "Apples are grown in all 50 states."};
+            appleFact.Text = Facts[random.Next(10)];
         }
 
-      
+
     }
 }

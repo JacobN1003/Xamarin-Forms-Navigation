@@ -1,21 +1,25 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{08164E28-0C39-46D8-98CA-4C1CD9088ADF}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="App3/App3/Grapes.xaml.cs">
     <Files>
-      <File FileName="App3/App3/MainPage.xaml" Line="20" Column="17" />
-      <File FileName="App3/App3/MainPage.xaml.cs" Line="21" Column="93" />
-      <File FileName="App3/App3/navApples.xaml" Line="33" Column="35" />
-      <File FileName="App3/App3/navApples.xaml.cs" Line="27" Column="40" />
+      <File FileName="App3/App3/MainPage.xaml" Line="10" Column="114" />
+      <File FileName="App3/App3/MainPage.xaml.cs" Line="26" Column="9" />
+      <File FileName="App3/App3/navOranges.xaml" Line="21" Column="23" />
+      <File FileName="App3/App3/navOranges.xaml.cs" Line="41" Column="50" />
+      <File FileName="App3/App3/Grapes.xaml" Line="1" Column="1" />
+      <File FileName="App3/App3/Grapes.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="App3" expanded="True">
             <Node name="App3" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="navApples.xaml" expanded="True">
-                <Node name="navApples.xaml.cs" selected="True" />
+              <Node name="Grapes.xaml" expanded="True">
+                <Node name="Grapes.xaml.cs" selected="True" />
               </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="navApples.xaml" expanded="True" />
               <Node name="navBananas.xaml" expanded="True" />
+              <Node name="navOranges.xaml" expanded="True" />
             </Node>
           </Node>
         </State>

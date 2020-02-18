@@ -15,7 +15,8 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="Grapes are botanically classed as berries"
+            <Label x:Name="grapeFact"
+                   Text=""
                    BackgroundColor="MediumPurple"
                    TextColor="White"
                 VerticalTextAlignment="Center"

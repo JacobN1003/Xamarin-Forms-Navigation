@@ -7,9 +7,7 @@
              x:Class="App3.MainPage"
              Title="Homework 3"
              
-             BackgroundImageSource="https://i.pinimg.com/originals/69/1e/8e/691e8e045726b0193d395205615b5c2b.jpg"
-             Appearing="Handle_Appearing"
-             Disappearing="Handle_Disappearing">
+             BackgroundImageSource="https://i.pinimg.com/originals/69/1e/8e/691e8e045726b0193d395205615b5c2b.jpg">
 
     <StackLayout VerticalOptions="Center">
         

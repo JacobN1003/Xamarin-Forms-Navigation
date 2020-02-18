@@ -23,15 +23,7 @@ namespace App3
             if (((Button)sender).Text == "oranges") await Navigation.PushAsync(new Oranges());
         }
 
-        void Handle_Appearing(object sender, System.EventArgs e)
-        {
-
-        }
-
-        void Handle_Disappearing(object sender, System.EventArgs e)
-        {
-
-        }
+        
 
     }
 }
