@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App3.Apples"
+             Title="Apples"
+             BackgroundImageSource="https://i.pinimg.com/originals/45/79/69/45796993595b8ff51514a25f1c38b7ca.jpg">
+
+    <!--Appearing="Handle_Appearing"
+             Disappearing="Handle_Disappearing">-->
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Random Apple Fact:"
+                BackgroundColor="IndianRed"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand"
+                TextColor="White"
+                   FontSize="30"
+                   FontAttributes="Bold"/>
+
+            <Label
+                x:Name="appleFact"
+                Text="2,500 varieties of apples are grown in the United States."
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                BackgroundColor="IndianRed"
+                HeightRequest="400"
+                WidthRequest="300"
+                HorizontalOptions="Center"/>
+                  
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

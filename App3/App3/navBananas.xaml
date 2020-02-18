@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundImageSource="https://i.pinimg.com/originals/4f/23/33/4f2333fad38ffec888702028ea9c51aa.jpg"
+             Title="Bananas"
+             x:Class="App3.Bananas">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            
+            <Label Text="Random Banana Fact:"
+                VerticalOptions="Center"
+                   BackgroundColor="LightGoldenrodYellow"
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   FontSize="30" />
+            <Label
+                x:Name="bananaFact"
+                Text="The banana is actually classified as a berry"
+                TextColor="Black"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                BackgroundColor="LightGoldenrodYellow"
+                HeightRequest="400"
+                WidthRequest="300"
+                HorizontalOptions="Center"/>
+
+       
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

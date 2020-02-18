@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Oranges"
+             BackgroundImageSource="https://i.pinimg.com/236x/43/09/66/430966a597c5cb4b781d3044fba5f9d9--pattern-wallpaper-phone-wallpapers.jpg"
+             x:Class="App3.Oranges">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Random Orange Fact:"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   BackgroundColor="DarkOrange"
+                   TextColor="White"/>
+            <Label
+                Text="As of 2010, Brazil grows one third of all the world's oranges."
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                BackgroundColor="DarkOrange"
+                HeightRequest="400"
+                WidthRequest="300"
+                HorizontalOptions="Center"/>
+
+
+            <Button WidthRequest="200"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Purple"
+                    TextColor="White"
+                    Text="grapes"
+                    Clicked="GoGrapes"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

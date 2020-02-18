@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Grapes"
+             BackgroundImageSource="https://i.pinimg.com/564x/c3/0d/9f/c30d9f4bf914b0b7975f6eb770e8df9f.jpg"
+             Title="Grapes">
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Random Grape Fact:"
+                   BackgroundColor="MediumPurple"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Grapes are botanically classed as berries"
+                   BackgroundColor="MediumPurple"
+                   TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                HeightRequest="400"
+                WidthRequest="300"
+                HorizontalOptions="Center"/>
+           
+            <Button  WidthRequest="200"
+                     Text="home"
+                     BackgroundColor="CadetBlue"
+                     TextColor="White"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Clicked="GoHome"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
