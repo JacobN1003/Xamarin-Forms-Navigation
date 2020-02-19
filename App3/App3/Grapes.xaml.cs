@@ -7,10 +7,13 @@ namespace App3
 {
     public partial class Grapes : ContentPage
     {
-        public Grapes()
+        public Grapes(ContentPage MainPageBackground)
         {
             InitializeComponent();
+            bg = MainPageBackground;
         }
+
+        public ContentPage bg { get; }//data binding constructor
 
         async void GoHome(object sender, EventArgs e)
         {
@@ -20,7 +23,7 @@ namespace App3
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            Random random = new Random();
+            Random random = new Random();//initialization for random number
             string[] Facts = {
                 "Grapes are botanically classed as berries",
                 "Grapes appear in many colors.White, red, black, blue, green, purple and golden.",
@@ -32,9 +35,15 @@ namespace App3
                 "Grapes are used to help cure asthma, indigestion, migraine, kidnеy disease and fatigue.",
                 "Grapes contain low levels of chоlеstеrоl, sodium and fat and are rich in vitаmins K and C.",
                 "Grape seeds, which are edible, are chock-full of antioxidants."
-            };
-            grapeFact.Text = Facts[random.Next(10)];
+            };//hardcoded random facts
+            grapeFact.Text = Facts[random.Next(10)];//changing apple label to a random fact
         }
-        
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            bg.BackgroundImageSource = "GRAPES.jpg";//changes mainpage background to last viewed page's background
+        }
+
     }
 }

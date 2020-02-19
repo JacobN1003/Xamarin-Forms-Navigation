@@ -470,3 +470,8 @@
 /Users/jacobn/Projects/hw3_nav/App3/App3.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/jacobn/Projects/hw3_nav/App3/App3.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/jacobn/Projects/hw3_nav/App3/App3.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/jacobn/Projects/hw3_nav/App3/App3.Android/obj/Debug/res/drawable/oranges.jpg
+/Users/jacobn/Projects/hw3_nav/App3/App3.Android/obj/Debug/res/drawable/bananas.jpg
+/Users/jacobn/Projects/hw3_nav/App3/App3.Android/obj/Debug/res/drawable/apples.jpg
+/Users/jacobn/Projects/hw3_nav/App3/App3.Android/obj/Debug/res/drawable/grapes.jpg
+/Users/jacobn/Projects/hw3_nav/App3/App3.Android/obj/Debug/res/drawable/main.jpg

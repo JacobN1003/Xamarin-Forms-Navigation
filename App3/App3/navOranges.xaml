@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              Title="Oranges"
-             BackgroundImageSource="https://i.pinimg.com/236x/43/09/66/430966a597c5cb4b781d3044fba5f9d9--pattern-wallpaper-phone-wallpapers.jpg"
+             BackgroundImageSource="ORANGES.jpg"
              x:Class="App3.Oranges">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center">

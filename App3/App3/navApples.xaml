@@ -6,10 +6,7 @@
              mc:Ignorable="d"
              x:Class="App3.Apples"
              Title="Apples"
-             BackgroundImageSource="https://i.pinimg.com/originals/45/79/69/45796993595b8ff51514a25f1c38b7ca.jpg">
-
-    <!--Appearing="Handle_Appearing"
-             Disappearing="Handle_Disappearing">-->
+             BackgroundImageSource="APPLES.jpg">
 
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center">

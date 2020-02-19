@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundImageSource="https://i.pinimg.com/originals/4f/23/33/4f2333fad38ffec888702028ea9c51aa.jpg"
+             BackgroundImageSource="BANANAS.jpg"
              Title="Bananas"
              x:Class="App3.Bananas">
     <ContentPage.Content>

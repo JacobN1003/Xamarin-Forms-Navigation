@@ -12,21 +12,25 @@ namespace App3
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Oranges : ContentPage
     {
-        public Oranges()
+        public Oranges(ContentPage mainPageBackground)
         {
             InitializeComponent();
+            MainPageBackground = mainPageBackground;
         }
+
+        public ContentPage MainPageBackground { get; }//data binding constructor
+
 
         async void GoGrapes(object sender, EventArgs e)
         {
-            if (((Button)sender).Text == "grapes") await Navigation.PushAsync(new Grapes());
-            
+            if (((Button)sender).Text == "grapes") await Navigation.PushAsync(new Grapes(MainPageBackground));
+            //goes to new page on button click
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            Random random = new Random();
+            Random random = new Random();//initialization for random number
             string[] Facts = {
                 "As of 2010, Brazil grows one third of all the world's oranges.",
                 "There are now over 600 varieties of oranges worldwide.",
@@ -37,9 +41,15 @@ namespace App3
                 "Spain has over 35 million orange trees.",
                 "The word orange comes from the Arabic word Naranj.",
                 
-            };
-            orangeFact.Text = Facts[random.Next(8)];
+            };//hardcoded random facts
+            orangeFact.Text = Facts[random.Next(8)];//changing apple label to a random fact
         }
-        
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MainPageBackground.BackgroundImageSource = "ORANGES.jpg";//changes mainpage background to last viewed page's background
+
+        }
     }
 }

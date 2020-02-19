@@ -12,16 +12,20 @@ namespace App3
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Bananas : ContentPage
     {
-        public Bananas()
+        public Bananas(ContentPage mainPageBackground)
         {
             InitializeComponent();
+            MainPageBackground = mainPageBackground;//passed data reference 
         }
+
+        public ContentPage MainPageBackground { get; }//data binding constructor
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            Random random = new Random();
-            string[] Facts = {
+            Random random = new Random();// initialization for random number
+ 
+             string[] Facts = {
                 "The banana is actually classified as a berry",
                 "The scientific name for banana is musa sapientum, which means “fruit of the wise men.",
                 "Bananas float in water, as do apples and watermelons.",
@@ -32,8 +36,14 @@ namespace App3
                 "Wrapping banana stems tightly in cling wrap will make them last three to five days longer.",
                 "Banana peels are actually edible if cooked.",
                 "If you peel a banana from the bottom up(holding on to the stem like a handle), you will avoid the stringy bits that cling to the fruit inside."
-                };
-           bananaFact.Text = Facts[random.Next(10)];
+                };//hardcoded random facts
+            bananaFact.Text = Facts[random.Next(10)];//changing apple label to a random fact
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MainPageBackground.BackgroundImageSource = "BANANAS.jpg";//changes mainpage background to last viewed page's background
         }
     }
 }
