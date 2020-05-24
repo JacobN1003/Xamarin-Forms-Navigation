@@ -1,29 +1,20 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{08164E28-0C39-46D8-98CA-4C1CD9088ADF}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="App3/App3/MainPage.xaml.cs">
     <Files>
-      <File FileName="App3/App3/MainPage.xaml" Line="22" Column="35" />
-      <File FileName="App3/App3/navApples.xaml.cs" Line="17" Column="55" />
-      <File FileName="App3/App3/navOranges.xaml.cs" Line="27" Column="13" />
-      <File FileName="App3/App3/Grapes.xaml.cs" Line="16" Column="65" />
-      <File FileName="App3/App3/MainPage.xaml.cs" Line="21" Column="47" />
+      <File FileName="App3/App3/MainPage.xaml.cs" Line="22" Column="108" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="App3" expanded="True">
             <Node name="App3" expanded="True">
+              <Node name="App.xaml" expanded="True" />
               <Node name="Grapes.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True">
                 <Node name="MainPage.xaml.cs" selected="True" />
               </Node>
               <Node name="navApples.xaml" expanded="True" />
-              <Node name="navBananas.xaml" expanded="True" />
               <Node name="navOranges.xaml" expanded="True" />
-            </Node>
-            <Node name="App3.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-              </Node>
             </Node>
           </Node>
         </State>
